@@ -20,7 +20,8 @@ rem call npm run build
 
 git status -s -b
 git add .
-git commit -am "version: %Version%"
+git commit -m "version: %Version%"
 
-git push --set-upstream origin main --force
-rem git push -u origin main --force"
+rem git push --set-upstream origin main --force
+rem git push -u origin main --force
+git push origin main
