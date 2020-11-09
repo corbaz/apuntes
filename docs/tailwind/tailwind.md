@@ -1,4 +1,4 @@
-# # Welcome to Tailwind
+# Welcome to Tailwind
 
 1. Julio
 2. Cesar
