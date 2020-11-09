@@ -24,4 +24,4 @@ git commit -m "version: %Version%"
 
 rem git push --set-upstream origin main --force
 rem git push -u origin main --force
-git push origin main
+git push origin HEAD:main
