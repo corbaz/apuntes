@@ -5,10 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        
+        <meta name="author" content="Julio Corbaz - JCC Producciones.">
         
         <link rel="shortcut icon" href="/img/favicon.ico">
-        <title>Apuntes JCC Producciones</title>
+        <title>Apuntes</title>
         <link href="/css/bootstrap.min.css" rel="stylesheet">
         <link href="/css/font-awesome.min.css" rel="stylesheet">
         <link href="/css/base.css" rel="stylesheet">
@@ -23,7 +23,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="/.">Apuntes JCC Producciones</a>
+                <a class="navbar-brand" href="/.">Apuntes</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,10 +34,24 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="/." class="nav-link">Welcome to MkDocs</a>
+                                <a href="/." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="/svelte/" class="nav-link">Svelte</a>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Lenguajes <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="/svelte/svelte/" class="dropdown-item">Svelte</a>
+</li>
+                                    
+<li>
+    <a href="/tailwind/tailwind/" class="dropdown-item">Tailwind</a>
+</li>
+                                    
+<li>
+    <a href="/mkdocs/mkdocs/" class="dropdown-item">MkDocs</a>
+</li>
+                                </ul>
                             </li>
                         </ul>
 
@@ -48,7 +62,7 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a href="https://github.com/example/repository/" class="nav-link">GITHUB</a>
+                                <a href="https://github.com/corbaz/apuntes/" class="nav-link">GITHUB</a>
                             </li>
                     </ul>
                 </div>
@@ -71,6 +85,7 @@
 
         <footer class="col-md-12">
             <hr>
+                <p>Copyright &copy <a href="https://juliocorbaz.000webhostapp.com"> Julio Corbaz</a></p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>

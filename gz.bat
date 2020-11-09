@@ -16,7 +16,7 @@ set Version=%Anio%.%MES%.%DIA%.%HORA%%MINUTOS%
 rem del C:\www\0-notebo-ok\src\js\version.js
 rem echo export let version = "%Version%";> C:\www\0-notebo-ok\src\js\version.js
 
-rem call npm run build
+call npm run build
 
 git status -s -b
 git add .

@@ -1,5 +1,14 @@
-site_name: Apuntes JCC Producciones
-repo_url: https://github.com/example/repository/
+site_name: Apuntes
 repo_name: 'GITHUB'
-htmltitle: JCC Producciones
-footer: Contains the page footer.
+repo_url: https://github.com/corbaz/apuntes
+edit_uri: https://github.com/corbaz/apuntes/edit/main/docs/
+site_description:  JCC Producciones - Apuntes de Lenguajes de Programacion.
+site_author: Julio Corbaz - JCC Producciones.
+copyright:  Copyright &copy <a href="https://juliocorbaz.000webhostapp.com"> Julio Corbaz</a>
+
+nav:
+  - Home: index.md
+  - Lenguajes:
+    - Svelte: svelte/svelte.md
+    - Tailwind: tailwind/tailwind.md
+    - MkDocs: mkdocs/mkdocs.md
