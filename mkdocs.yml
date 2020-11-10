@@ -2,7 +2,7 @@
 site_name: Apuntes
 site_description: Apuntes de Lenguajes de Programación.
 site_author: Julio Corbaz - JCC Producciones.
-site_dir: doc
+site_dir: docs
 docs_dir: src
 repo_name: "GITHUB"
 repo_url: https://github.com/corbaz/apuntes
