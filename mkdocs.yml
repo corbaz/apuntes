@@ -1,4 +1,7 @@
 site_name: Apuntes
+extra:
+    generator: false
+#docs_dir : mkdocs-material/material
 #repo_name: "GITHUB"
 #repo_url: https://github.com/corbaz/apuntes
 #edit_uri: https://github.com/corbaz/apuntes/edit/main/docs/
@@ -13,5 +16,75 @@ nav:
           - Tailwind: tailwind/tailwind.md
           - MkDocs: mkdocs/mkdocs.md
 
+# Configuration
 theme:
-    name: material
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: es
+  features:
+    - navigation.tabs
+    #- navigation.instant
+  palette:
+    #scheme: dracula
+    scheme: default
+    primary: Teal
+    #Red
+    #Pink
+    #Purple
+    #Deep Purple
+    #Indigo
+    #Blue
+    #Light Blue
+    #Cyan
+    #Teal
+    #Green
+    #Light Green
+    #Lime
+    #Yellow
+    #Amber
+    #Orange
+    #Deep Orange
+    #Brown
+    #Grey
+    #Blue Grey
+    accent: pink
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.ico
+  icon:
+    logo: logo/logo
+
+extra:
+  search:
+    language: "es, en"        
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/corbaz
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/JulioCorbaz
+    - icon: fontawesome/brands/gmail
+      link: mailto://julio.corbaz@gmail.com
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/julio_corbaz
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/julio-corbaz/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/julio.cesar.corbaz/
+
+  extra_css:
+    - assets/css/main.css
+    - assets/libs/magnific-popup/magnific-popup.css
+  
+  extra_javascript:
+    - assets/libs/jquery/jquery-3.4.0.min.js

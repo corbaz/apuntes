@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Bienvenidos a Apuntes
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<center>
 
-## Commands
+![OK](assets/img/logo.png "Apuntes")
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+</center>
 
-## Project layout
+``` html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+</body>
+</html>
+```
