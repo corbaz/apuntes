@@ -44,7 +44,7 @@ theme:
   palette:
     #scheme: dracula
     scheme: default
-    primary: pink
+    primary: Orage
     #Red
     #Pink
     #Purple
@@ -64,7 +64,7 @@ theme:
     #Brown
     #Grey
     #Blue Grey
-    accent: pink
+    accent: Blue
   font:
     text: Roboto
     code: Roboto Mono

@@ -6,15 +6,15 @@
     "scripts": {
         "build": "mkdocs build",
         "dev": "mkdocs serve",
-        "GIT-ALL": "gz.bat",
+        "GIT-ALL": "gz.bat && mkdocs",
         "update": "ncu -u && pnpm install",
         "git-init": "git init && npm run git-remote",
         "git-remote": "git remote add origin https://github.com/corbaz/apuntes.git",
         "git-add": "git add .",
         "git-commit": "git commit -m ",
         "git-push": "git push -u origin main",
-        "notebo-ok": "npm run build && cd docs && surge --domain apuntes.surge.sh",
-        "corbaz": "npm run build && cd docs && surge --domain mkdocs.surge.sh && cd .."
+        "mkdocs": "cd docs && surge --domain mkdocs.surge.sh & cd ..",
+        "corbaz": "npm run build && cd docs && surge --domain corbaz.surge.sh && cd .."
     },
     "author": "Julio Cesar Corbaz",
     "license": "ISC",
