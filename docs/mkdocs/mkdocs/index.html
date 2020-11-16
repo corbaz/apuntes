@@ -29,7 +29,7 @@
         
           
           
-          <meta name="theme-color" content="#00bdd6">
+          <meta name="theme-color" content="#ffa724">
         
       
     
@@ -44,6 +44,10 @@
     
     
     
+      <link rel="stylesheet" href="../../assets/css/main.css">
+    
+      <link rel="stylesheet" href="../../assets/libs/magnific-popup/magnific-popup.css">
+    
     
       
     
@@ -56,7 +60,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="pink">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="pink">
       
   
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -1046,7 +1050,7 @@ ZnkAMjAyMC0xMS0wOVQyMzowMzozOCswMDowMBjMMWoAAAAASUVORK5CYII=" />
               
                 
                 
-                <h1 id="bienvenidos-a-mkdocs">Bienvenidos a MkDocs<a class="headerlink" href="#bienvenidos-a-mkdocs" title="Permanent link">&para;</a></h1>
+                <h1 id="bienvenidos-a-mkdocs">Bienvenidos a MkDocs</h1>
 <p><a href="http://www.mkdocs.org">mkdocs</a> es una herramienta para crear documentación.
 Entre sus ventajas destacan las siguientes:</p>
 <ul>
@@ -1055,7 +1059,7 @@ Entre sus ventajas destacan las siguientes:</p>
 <li>Incluye un servidor web que permite visualizar los cambios según vamos escribiendo.</li>
 <li>Permite crear facilmente un sitio web estático con la documentación generada.</li>
 </ul>
-<h2 id="instalacion">Instalación<a class="headerlink" href="#instalacion" title="Permanent link">&para;</a></h2>
+<h2 id="instalacion">Instalación</h2>
 <p>Comprobaremos si tenemos instalado Python y PIP con los siguientes comandos:</p>
 <div class="codehilite"><pre><span></span><code>::: bash
 python --version
@@ -1086,14 +1090,14 @@ pip --version
 <div class="codehilite"><pre><span></span><code>pip install pymdown-extensions
 </code></pre></div>
 
-<h2 id="comandos">Comandos<a class="headerlink" href="#comandos" title="Permanent link">&para;</a></h2>
+<h2 id="comandos">Comandos</h2>
 <ul>
 <li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
 <li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
 <li><code>mkdocs build</code> - Build the documentation site.</li>
 <li><code>mkdocs help</code> - Print this help message.</li>
 </ul>
-<h2 id="pasos-para-comenzar-la-edicion">Pasos para comenzar la edición<a class="headerlink" href="#pasos-para-comenzar-la-edicion" title="Permanent link">&para;</a></h2>
+<h2 id="pasos-para-comenzar-la-edicion">Pasos para comenzar la edición</h2>
 <ol>
 <li>Abrir una consola DOS.</li>
 <li>
@@ -1108,7 +1112,7 @@ pip --version
 </li>
 <li>Comenzar la edición de los documentos.</li>
 </ol>
-<h2 id="estructura-de-este-proyecto">Estructura de este proyecto<a class="headerlink" href="#estructura-de-este-proyecto" title="Permanent link">&para;</a></h2>
+<h2 id="estructura-de-este-proyecto">Estructura de este proyecto</h2>
 <ul>
 <li>mkdocs.yml  --  Fichero de configuración.<ul>
 <li>docs/<ul>
@@ -1169,10 +1173,6 @@ pip --version
             Copyright &copy <a href="https://juliocorbaz.000webhostapp.com" target="_blank" rel="noopener">Julio Corbaz</a>
           </div>
         
-<!--         Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a> -->
       </div>
       
   <div class="md-footer-social">
@@ -1245,12 +1245,14 @@ pip --version
       <script>
         app = initialize({
           base: "../..",
-          features: ['navigation.tabs'],
+          features: ['navigation.tabs', 'search.suggest', 'search.highlight'],
           search: Object.assign({
             worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
+      
+        <script src="../../assets/libs/js/extra.js"></script>
       
     
   </body>

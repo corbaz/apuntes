@@ -29,7 +29,7 @@
         
           
           
-          <meta name="theme-color" content="#00bdd6">
+          <meta name="theme-color" content="#ffa724">
         
       
     
@@ -44,6 +44,10 @@
     
     
     
+      <link rel="stylesheet" href="../../assets/css/main.css">
+    
+      <link rel="stylesheet" href="../../assets/libs/magnific-popup/magnific-popup.css">
+    
     
       
     
@@ -56,7 +60,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="pink">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="pink">
       
   
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -960,7 +964,8 @@ ZnkAMjAyMC0xMS0wOVQyMzowMzozOCswMDowMBjMMWoAAAAASUVORK5CYII=" />
               
                 
                 
-                <h1 id="bienvenidos-a-svelte">Bienvenidos a Svelte<a class="headerlink" href="#bienvenidos-a-svelte" title="Permanent link">&para;</a></h1>
+                <h1>Hola</h1>
+<h1 id="bienvenidos-a-svelte">Bienvenidos a Svelte</h1>
                 
               
               
@@ -1019,10 +1024,6 @@ ZnkAMjAyMC0xMS0wOVQyMzowMzozOCswMDowMBjMMWoAAAAASUVORK5CYII=" />
             Copyright &copy <a href="https://juliocorbaz.000webhostapp.com" target="_blank" rel="noopener">Julio Corbaz</a>
           </div>
         
-<!--         Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a> -->
       </div>
       
   <div class="md-footer-social">
@@ -1095,12 +1096,14 @@ ZnkAMjAyMC0xMS0wOVQyMzowMzozOCswMDowMBjMMWoAAAAASUVORK5CYII=" />
       <script>
         app = initialize({
           base: "../..",
-          features: ['navigation.tabs'],
+          features: ['navigation.tabs', 'search.suggest', 'search.highlight'],
           search: Object.assign({
             worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
+      
+        <script src="../../assets/libs/js/extra.js"></script>
       
     
   </body>

@@ -1,0 +1,201 @@
+{
+	"Resaltar Texto": {
+		"prefix": "kresaltar",
+		"body": [
+			"==${1:Texto a Resaltar}==",
+			"",
+			""
+		],
+		"description": "Resaltar texto"
+	},
+	"sigla": {
+		"prefix": "ksigla",
+		"body": [
+			"${1:MMD} ${2:ofrece muchas más posibilidades que} ${3:MD}.",
+			"",
+			"*[${1:MMD}]: Abreviación para ${4:Multimarkdown}.",
+			"*[${3:MD}]: Abreviación para ${5:Markdown}.",
+			"",
+			""
+		],
+		"description": "Abreviaturas o Siglas"
+	},
+	"Nota": {
+		"prefix": "knota",
+		"body": [
+			"!!! ${1:Danger-Info-Note-Warning} ${2:TULO CON COMILLAS}",
+			"    ${3:SUBTITULO}.",
+			"",
+			""
+		],
+		"description": "Nota tipo Card"
+	},
+	"Nota desplegable": {
+		"prefix": "kdnota",
+		"body": [
+			"??? ${1:Danger-Info-Note-Warning} ${2:TULO CON COMILLAS}",
+			"    ${3:SUBTITULO}.",
+			"",
+			""
+		],
+		"description": "Nota tipo Card dropdown"
+	},
+	"Card Desplegable": {
+		"prefix": "kdcard",
+		"body": [
+			"??? ${1:Danger-Info-Note-Warning} ${2:TULO CON COMILLAS}",
+			"    ${3:SUBTITULO}.",
+			"",
+			"    === ${4:TAB CON COMILLAS}",
+			"        ==Texto==",
+			"",
+			"    === ${5:TAB CON COMILLAS}",
+			"        1. Julio",
+			"        2. Cesar",
+			"",
+			""
+		],
+		"description": "Card dropdown"
+	},
+	"Card": {
+		"prefix": "kcard",
+		"body": [
+			"!!! ${1:Danger-Info-Note-Warning} ${2:TULO CON COMILLAS}",
+			"    ${3:SUBTITULO}.",
+			"",
+			"    === ${4:TAB CON COMILLAS}",
+			"        ==Texto==",
+			"",
+			"    === ${5:TAB CON COMILLAS}",
+			"        1. Julio",
+			"        2. Cesar",
+			"",
+			""
+		],
+		"description": "Card"
+	},
+	"Tabs": {
+		"prefix": "ktab",
+		"body": [
+			"=== ${4:TAB CON COMILLAS}",
+			"    ==Texto==",
+			"",
+			"=== ${5:TAB CON COMILLAS}",
+			"    1. Julio",
+			"    2. Cesar",
+			"",
+			""
+		],
+		"description": "Menu Tabs"
+	},
+	"Link": {
+		"prefix": "kLink",
+		"body": [
+			"[Logo OK](https://www.google.com 'Logo')",
+			"",
+			""
+		],
+		"description": "Link"
+	},
+	"Imagen Center": {
+		"prefix": "kimg-center",
+		"body": [
+			"<center>",
+			"",
+			"![${1:tile}](${2:assets/img/logo.png} '${3:Etiqueta}')",
+			"",
+			"</center>",
+			"",
+			""
+		],
+		"description": "Imagen Center"
+	},
+	"Imagen": {
+		"prefix": "kimg",
+		"body": [
+			"![${1:tile}](${2:assets/img/logo.png} '${3:Etiqueta}')",
+			"",
+			""
+		],
+		"description": "Imagen Center"
+	},
+	"Comentarios": {
+		"prefix": "kcomentario",
+		"body": [
+			"$BLOCK_COMMENT_START Comentario $BLOCK_COMMENT_END",
+		],
+		"description": "Comentario"
+	},
+	"# TITLE": {
+		"prefix": "k1",
+		"body": [
+			"# ${1:Enter a Title}",
+			"",
+			""
+		],
+		"description": "H1"
+	},
+	"## TITLE": {
+		"prefix": "k2",
+		"body": [
+			"## ${1: Enter a Title}",
+			"",
+			""
+		],
+		"description": "H2"
+	},
+	"### TITLE": {
+		"prefix": "k3",
+		"body": [
+			"### ${1: Enter a Title}",
+			"",
+			""
+		],
+		"description": "H3"
+	},
+	"#### TITLE": {
+		"prefix": "k4",
+		"body": [
+			"#### ${1: Enter a Title}",
+			"",
+			""
+		],
+		"description": "H4"
+	},
+	"##### TITLE": {
+		"prefix": "k5",
+		"body": [
+			"##### ${1: Enter a Title}",
+			"",
+			""
+		],
+		"description": "H5"
+	},
+	"###### TITLE": {
+		"prefix": "k6",
+		"body": [
+			"###### ${1: Enter a Title}",
+			"",
+			""
+		],
+		"description": "H6"
+	},
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('datos: '${1:dato}, 'mostrar:' ${2:mostrar}');",
+			"npm run ${1}",
+			"",
+			""
+		],
+		"description": "Log output to console"
+	},
+	"Print to": {
+		"prefix": "log",
+		"body": [
+			"console.log('datos: '${1:dato}, 'mostrar:' ${2:mostrar}');",
+			"npm run ${1}"
+		],
+		"description": "Log output to console"
+	}
+}

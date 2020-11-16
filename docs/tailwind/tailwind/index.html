@@ -29,7 +29,7 @@
         
           
           
-          <meta name="theme-color" content="#00bdd6">
+          <meta name="theme-color" content="#ffa724">
         
       
     
@@ -44,6 +44,10 @@
     
     
     
+      <link rel="stylesheet" href="../../assets/css/main.css">
+    
+      <link rel="stylesheet" href="../../assets/libs/magnific-popup/magnific-popup.css">
+    
     
       
     
@@ -56,7 +60,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="pink">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="pink">
       
   
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -931,9 +935,22 @@ ZnkAMjAyMC0xMS0wOVQyMzowMzozOCswMDowMBjMMWoAAAAASUVORK5CYII=" />
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pepo" class="md-nav__link">
-    Pepo
+  <a href="#pepo-2" class="md-nav__link">
+    Pepo 2
   </a>
+  
+    <nav class="md-nav" aria-label="Pepo 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pepo-3" class="md-nav__link">
+    Pepo 3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -985,9 +1002,22 @@ ZnkAMjAyMC0xMS0wOVQyMzowMzozOCswMDowMBjMMWoAAAAASUVORK5CYII=" />
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pepo" class="md-nav__link">
-    Pepo
+  <a href="#pepo-2" class="md-nav__link">
+    Pepo 2
   </a>
+  
+    <nav class="md-nav" aria-label="Pepo 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pepo-3" class="md-nav__link">
+    Pepo 3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1004,10 +1034,11 @@ ZnkAMjAyMC0xMS0wOVQyMzowMzozOCswMDowMBjMMWoAAAAASUVORK5CYII=" />
               
                 
                 
-                <h1 id="bienvenidos-a-tailwind">Bienvenidos a Tailwind<a class="headerlink" href="#bienvenidos-a-tailwind" title="Permanent link">&para;</a></h1>
+                <h1 id="bienvenidos-a-tailwind">Bienvenidos a Tailwind</h1>
 <!--  comentario -->
 
-<h2 id="pepo">Pepo<a class="headerlink" href="#pepo" title="Permanent link">&para;</a></h2>
+<h2 id="pepo-2">Pepo 2</h2>
+<h3 id="pepo-3">Pepo 3</h3>
                 
               
               
@@ -1066,10 +1097,6 @@ ZnkAMjAyMC0xMS0wOVQyMzowMzozOCswMDowMBjMMWoAAAAASUVORK5CYII=" />
             Copyright &copy <a href="https://juliocorbaz.000webhostapp.com" target="_blank" rel="noopener">Julio Corbaz</a>
           </div>
         
-<!--         Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a> -->
       </div>
       
   <div class="md-footer-social">
@@ -1142,12 +1169,14 @@ ZnkAMjAyMC0xMS0wOVQyMzowMzozOCswMDowMBjMMWoAAAAASUVORK5CYII=" />
       <script>
         app = initialize({
           base: "../..",
-          features: ['navigation.tabs'],
+          features: ['navigation.tabs', 'search.suggest', 'search.highlight'],
           search: Object.assign({
             worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
+      
+        <script src="../../assets/libs/js/extra.js"></script>
       
     
   </body>

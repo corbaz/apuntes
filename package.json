@@ -4,8 +4,8 @@
     "description": "JCC Producciones - Apuntes ",
     "main": "index.js",
     "scripts": {
-        "build": "mkdocs build",
-        "dev": "mkdocs serve",
+        "build": "cls && mkdocs build --clean",
+        "dev": "cls && mkdocs serve",
         "GIT-ALL": "gz.bat && npm run mkdocs.surge.sh",
         "update": "ncu -u && pnpm install",
         "git-init": "git init && npm run git-remote",

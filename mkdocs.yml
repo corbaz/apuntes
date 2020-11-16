@@ -1,3 +1,143 @@
+# # Informacion de Proyecto - Project information
+# site_name: Apuntes
+# site_description: Apuntes de Lenguajes de Programación.
+# site_author: Julio Corbaz - JCC Producciones.
+# site_dir: docs
+# docs_dir: src
+# #repo_name: "GITHUB"
+# #repo_url: https://github.com/corbaz/apuntes
+# #edit_uri: https://github.com/corbaz/apuntes/edit/main/docs/
+
+# # Copyright
+# copyright: Copyright &copy <a href="https://juliocorbaz.000webhostapp.com" target="_blank" rel="noopener">Julio Corbaz</a>
+
+# # Text direction (can be ltr or rtl), default: ltr
+# #direction: rtl
+
+# nav:
+#   - Home: index.md
+#   - Lenguajes:
+#     - Svelte: svelte/svelte.md
+#     - Tailwind: tailwind/tailwind.md
+#   #  - Xamarin:  xamarin/xamarin.md
+#     - MkDocs: mkdocs/mkdocs.md
+
+# # Configuration Theme
+# theme:
+#   name: material
+#   custom_dir: src/material
+#   #hljs_style: 'An Old Hope'
+#   shortcuts:
+#     help: 191    # ?
+#     next: 78     # n
+#     previous: 80 # p
+#     search: 83   # s
+
+#   # 404 page
+#   static_templates:
+#     - 404.html
+
+#   # Don't include MkDocs' JavaScript
+#   include_search_page: false
+#   search_index_only: true
+
+#   # Default values, taken from mkdocs_theme.yml
+#   language: es
+#   features:
+#     - navigation.tabs
+#     #- navigation.instant
+#   palette:
+#     #scheme: default slate preference dracula
+#     #red  #pink  #purple  #deep purple  #Indigo  #blue  #light blue  #cyan  #teal  #green  #light green  #lime  #yellow  #amber  #orange  #deep orange  #brown   #grey   #blue grey  
+#     scheme: default
+#     primary: pink
+#     accent: green
+#     toggle:
+#       icon: material/.icons/material/ab-testing
+#       name: Switch to light mode
+#     scheme: slate
+#     primary: green
+#     accent: blue
+#     toggle:
+#       icon: material/.icons/material/ab-testing
+#       name: Switch to dark mode
+
+#   font:
+#     text: Roboto
+#     code: Roboto Mono
+#   favicon: assets/favicon.ico
+#   icon:
+#     logo: logo/logo
+
+# # Customization Extra
+# extra:
+#   #generator: false
+#   search:
+#     language: "es, en"        
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/corbaz
+#     - icon: fontawesome/brands/facebook
+#       link: https://www.facebook.com/JulioCorbaz
+#     - icon: fontawesome/brands/gmail
+#       link: mailto://julio.corbaz@gmail.com
+#     - icon: fontawesome/brands/twitter
+#       link: https://twitter.com/julio_corbaz
+#     - icon: fontawesome/brands/linkedin
+#       link: https://www.linkedin.com/in/julio-corbaz/
+#     - icon: fontawesome/brands/instagram
+#       link: https://www.instagram.com/julio.cesar.corbaz/
+
+# # CSS
+# extra_css:
+#   - assets/css/main.css
+#   - assets/libs/magnific-popup/magnific-popup.css
+
+# # JavaScript 
+# extra_javascript:
+#   - assets/libs/js/extra.js
+
+# # Extensions
+# markdown_extensions:
+#   - admonition
+#   - abbr
+#   - attr_list
+#   - def_list
+#   - codehilite
+#   - footnotes
+#   - meta
+#   - smarty
+#   - toc:
+#       permalink: false
+#   - sane_lists
+#   - pymdownx.arithmatex:
+#       generic: true
+#   - pymdownx.details
+#   - pymdownx.inlinehilite
+#   - pymdownx.mark
+#   - pymdownx.progressbar
+#   - pymdownx.snippets
+#   - pymdownx.tabbed
+#   - pymdownx.tasklist:
+#       custom_checkbox: true
+#   - pymdownx.tilde
+
+# plugins:   
+#   - search
+#       min_search_length: 2
+#   - minify:
+#       minify_html: true
+#       minify_js: true
+#       htmlmin_opts:
+#         remove_comments: true
+#       #js_files:
+#           #- my/javascript/dir/file1.js          
+
+# # Google Analytics
+# google_analytics:
+#   - 'UA-108885860-1'
+#   - 'auto'
+
 # Informacion de Proyecto - Project information
 site_name: Apuntes
 site_description: Apuntes de Lenguajes de Programación.
@@ -11,11 +151,6 @@ docs_dir: src
 # Copyright
 copyright: Copyright &copy <a href="https://juliocorbaz.000webhostapp.com" target="_blank" rel="noopener">Julio Corbaz</a>
 
-extra:
-    generator: false
-#docs_dir : mkdocs-material/material
-
-
 nav:
     - Home: index.md
     - Lenguajes:
@@ -26,7 +161,7 @@ nav:
 # Configuration
 theme:
   name: null
-  custom_dir: material
+  custom_dir: src/material
 
   # 404 page
   static_templates:
@@ -41,10 +176,13 @@ theme:
   features:
     - navigation.tabs
     #- navigation.instant
+    - search.suggest
+    - search.highlight
+    
   palette:
-    #scheme: dracula
-    scheme: default
-    primary: cyan
+    #scheme: default dracula
+    scheme: slate
+    primary: orange
     #red
     #pink
     #purple
@@ -73,6 +211,7 @@ theme:
     logo: logo/logo
 
 extra:
+  generator: false
   search:
     language: "es, en"        
   social:
@@ -89,21 +228,28 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/julio.cesar.corbaz/
 
-  extra_css:
-    - assets/css/main.css
-    - assets/libs/magnific-popup/magnific-popup.css
+extra_css:
+  - assets/css/main.css
+  - assets/libs/magnific-popup/magnific-popup.css
   
-  extra_javascript:
-    - assets/libs/jquery/jquery-3.4.0.min.js
+extra_javascript:
+  - assets/libs/js/extra.js
 
-    # Extensions
+# Extensions
 markdown_extensions:
   - admonition
   - codehilite
   - footnotes
   - toc:
-      permalink: true
+      permalink: false
   - pymdownx.arithmatex
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.mark
+
+plugins:
+  - search:
+      lang:
+        - es
+        - en
+      separator: '[\s\-\.]+'
