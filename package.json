@@ -14,7 +14,7 @@
         "git-commit": "git commit -m ",
         "git-push": "git push -u origin main",
         "mkdocs.surge.sh": "cd docs && surge --domain mkdocs.surge.sh & cd ..",
-        "corbaz": "npm run build && cd docs && surge --domain corbaz.surge.sh && cd .."
+        "corbaz": "cd docs && surge --domain corbaz.surge.sh && cd .."
     },
     "author": "Julio Cesar Corbaz",
     "license": "ISC",

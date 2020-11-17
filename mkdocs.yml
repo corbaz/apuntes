@@ -180,29 +180,21 @@ theme:
     - search.highlight
     
   palette:
-    #scheme: default dracula
-    scheme: slate
-    primary: orange
-    #red
-    #pink
-    #purple
-    #deep purple
-    #Indigo
-    #blue
-    #light blue
-    #cyan
-    #teal
-    #green
-    #light green
-    #lime
-    #yellow
-    #amber
-    #orange
-    #deep orange
-    #brown
-    #grey
-    #blue grey
-    accent: pink
+    #scheme: default slate dracula
+    #red  #pink  #purple  #deep purple  #Indigo  #blue  #light blue  #cyan    #teal  #green  #light green  #lime  #yellow  #amber  #orange  #deep orange
+    #brown  #grey  #blue grey
+    - scheme: default
+      primary: red
+      accent: yellow
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    - scheme: slate
+      primary: pink
+      accent: green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
   font:
     text: Roboto
     code: Roboto Mono
@@ -249,7 +241,16 @@ markdown_extensions:
 
 plugins:
   - search:
+      min_search_length: 3
       lang:
         - es
         - en
       separator: '[\s\-\.]+'
+  #pip install mkdocs-minify-plugin 
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+          remove_comments: true
+      js_files:
+          - assets/libs/js/extra.js
