@@ -1,6 +1,6 @@
 #### 1. Bienvenidos a Apuntes.
 
-See my [About](/svelte/prueba) page for details.  
+See my [About](/svelte/prueba/) page for details.  
 
 ??? note "TITULO CON COMILLAS"
     SUBTITULO.
