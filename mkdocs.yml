@@ -144,9 +144,9 @@ site_description: Apuntes de Lenguajes de Programación.
 site_author: Julio Corbaz - JCC Producciones.
 site_dir: docs
 docs_dir: src
-#repo_name: "GITHUB"
-#repo_url: https://github.com/corbaz/apuntes
-#edit_uri: https://github.com/corbaz/apuntes/edit/main/docs/
+# repo_name: "GITHUB"
+# repo_url: https://github.com/corbaz/apuntes
+# edit_uri: https://github.com/corbaz/apuntes/edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy <a href="https://juliocorbaz.000webhostapp.com" target="_blank" rel="noopener">Julio Corbaz</a>
@@ -155,9 +155,9 @@ nav:
     - Home: index.md
     - Lenguajes:
           - Svelte: svelte/svelte.md
-          - Prueba: svelte/prueba.md
           - Tailwind: tailwind/tailwind.md
           - MkDocs: mkdocs/mkdocs.md
+          - Xamarin: xamarin/xamarin.md
 
 # Configuration
 theme:
@@ -176,7 +176,7 @@ theme:
   language: es
   features:
     - navigation.tabs
-    #- navigation.instant
+    - navigation.instant
     - search.suggest
     - search.highlight
     
@@ -184,18 +184,18 @@ theme:
     #scheme: default slate dracula
     #red  #pink  #purple  #deep purple  #Indigo  #blue  #light blue  #cyan    #teal  #green  #light green  #lime  #yellow  #amber  #orange  #deep orange
     #brown  #grey  #blue grey
-    - scheme: default
-      primary: red
-      accent: yellow
+    - scheme: slate
+      primary: blue
+      accent: white
       toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+        icon: material/material/account-minus
+        name: Mode Light
     - scheme: slate
       primary: pink
       accent: green
       toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+        icon: material/material/account-plus
+        name: Mode Dark
   font:
     text: Roboto
     code: Roboto Mono
@@ -239,7 +239,31 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.mark
-
+  - pymdownx.tabbed
+# # Extensions
+# markdown_extensions:
+#   - admonition
+#   - abbr
+#   - attr_list
+#   - def_list
+#   - codehilite
+#   - footnotes
+#   - meta
+#   - smarty
+#   - toc:
+#       permalink: false
+#   - sane_lists
+#   - pymdownx.arithmatex:
+#       generic: true
+#   - pymdownx.details
+#   - pymdownx.inlinehilite
+#   - pymdownx.mark
+#   - pymdownx.progressbar
+#   - pymdownx.snippets
+#   - pymdownx.tabbed
+#   - pymdownx.tasklist:
+#       custom_checkbox: true
+#   - pymdownx.tilde
 plugins:
   - search:
       min_search_length: 3

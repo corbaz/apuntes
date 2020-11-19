@@ -14,11 +14,14 @@
         "git-commit": "git commit -m ",
         "git-push": "git push -u origin main",
         "mkdocs.surge.sh": "cd docs && surge --domain mkdocs.surge.sh & cd ..",
-        "corbaz": "cd docs && surge --domain corbaz.surge.sh && cd .."
+        "corbaz": "cd docs && surge --domain corbaz.surge.sh && cd ..",
+        "clarin": "node src/assets/libs/js/extra.js"
     },
     "author": "Julio Cesar Corbaz",
     "license": "ISC",
     "devDependencies": {
+        "playwright": "^1.6.2",
+        "puppeteer": "^5.5.0",
         "vuepress": "^1.7.1"
     }
 }

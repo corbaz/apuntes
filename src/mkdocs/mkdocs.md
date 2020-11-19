@@ -74,5 +74,3 @@ Para utilizar la extensión PyMdown que entre otros paquetes incluye arithmatex 
         - markdown.md    # Tutorial sobre markdown.
         - git.md                # Notas sobre Git.
         - about.md           # Informacion acerca del curso.
-
-<!-- Hello World -->k

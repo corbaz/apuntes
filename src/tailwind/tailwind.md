@@ -1,7 +1,7 @@
 # Bienvenidos a Tailwind
 
-<!--  comentario -->
+<center>
 
-## Pepo 2
+![tile](../assets/img/logo.png 'Etiqueta')
 
-### Pepo 3
+</center>
